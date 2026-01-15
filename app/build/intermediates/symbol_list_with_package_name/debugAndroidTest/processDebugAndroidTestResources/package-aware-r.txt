@@ -1,0 +1,3 @@
+com.mobl.clothingmarket.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

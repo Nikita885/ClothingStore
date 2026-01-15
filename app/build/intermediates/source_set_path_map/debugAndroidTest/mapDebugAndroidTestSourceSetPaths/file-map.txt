@@ -1,0 +1,7 @@
+com.mobl.clothingmarket.test.app-core-1.5.0-0 C:\Users\nic84\.gradle\caches\8.13\transforms\2cd7c59811f72c8c6f3a50c108804641\transformed\core-1.5.0\res
+com.mobl.clothingmarket.test.app-annotation-experimental-1.4.0-1 C:\Users\nic84\.gradle\caches\8.13\transforms\684467f454faec9bc5d1cf3cc883ec5b\transformed\annotation-experimental-1.4.0\res
+com.mobl.clothingmarket.test.app-androidTest-2 F:\MOBL\app\build\generated\res\resValues\androidTest\debug
+com.mobl.clothingmarket.test.app-updated_navigation_xml-3 F:\MOBL\app\build\generated\updated_navigation_xml\debugAndroidTest
+com.mobl.clothingmarket.test.app-mergeDebugAndroidTestResources-4 F:\MOBL\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.mobl.clothingmarket.test.app-mergeDebugAndroidTestResources-5 F:\MOBL\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.mobl.clothingmarket.test.app-debugAndroidTest-6 F:\MOBL\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
