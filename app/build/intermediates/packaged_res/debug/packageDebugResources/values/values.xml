@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="product_categories">
+        <item>Футболки</item>
+        <item>Брюки</item>
+        <item>Джинсы</item>
+        <item>Куртки</item>
+        <item>Платья</item>
+        <item>Обувь</item>
+        <item>Аксессуары</item>
+        <item>Нижнее белье</item>
+        <item>Спортивная одежда</item>
+        <item>Верхняя одежда</item>
+    </string-array>
+    <string-array name="product_sizes">
+        <item>XS</item>
+        <item>S</item>
+        <item>M</item>
+        <item>L</item>
+        <item>XL</item>
+        <item>XXL</item>
+        <item>XXXL</item>
+        <item>28</item>
+        <item>30</item>
+        <item>32</item>
+        <item>34</item>
+        <item>36</item>
+        <item>38</item>
+        <item>40</item>
+        <item>42</item>
+        <item>44</item>
+        <item>46</item>
+        <item>48</item>
+        <item>50</item>
+        <item>52</item>
+    </string-array>
+    <color name="accent">#FF6200EE</color>
+    <color name="accent_dark">#FF3700B3</color>
+    <color name="accent_light">#FF7C4DFF</color>
+    <color name="black">#FF000000</color>
+    <color name="bottom_nav_selected">#FF6200EE</color>
+    <color name="bottom_nav_unselected">#B3FFFFFF</color>
+    <color name="dark_background">#FF121212</color>
+    <color name="dark_card">#FF2C2C2C</color>
+    <color name="dark_surface">#FF1E1E1E</color>
+    <color name="light_text">#FFFFFFFF</color>
+    <color name="light_text_secondary">#B3FFFFFF</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="add_product">Добавить товар</string>
+    <string name="add_to_cart">Добавить в корзину</string>
+    <string name="add_to_cart_button">В корзину</string>
+    <string name="admin_only">Только для администраторов</string>
+    <string name="admin_panel">Админ панель</string>
+    <string name="all">Все</string>
+    <string name="app_name"/>
+    <string name="apply_filters">Применить</string>
+    <string name="cancel">Отмена</string>
+    <string name="cart">Корзина</string>
+    <string name="characteristics">Характеристики</string>
+    <string name="clear_filters">Сбросить</string>
+    <string name="description">Описание</string>
+    <string name="edit_product">Редактировать товар</string>
+    <string name="email">Email</string>
+    <string name="empty_cart">Корзина пуста</string>
+    <string name="filters">Фильтры</string>
+    <string name="in_stock">В наличии</string>
+    <string name="in_stock_format">В наличии: %d шт</string>
+    <string name="in_stock_only">Только в наличии</string>
+    <string name="login">Вход</string>
+    <string name="login_button">Войти</string>
+    <string name="login_required">Для добавления в корзину необходимо войти</string>
+    <string name="logout">Выйти</string>
+    <string name="name">Имя</string>
+    <string name="out_of_stock">Нет в наличии</string>
+    <string name="out_of_stock_only">Только нет в наличии</string>
+    <string name="password">Пароль</string>
+    <string name="price">Цена</string>
+    <string name="product_category">Категория</string>
+    <string name="product_color">Цвет</string>
+    <string name="product_description">Описание</string>
+    <string name="product_name">Название</string>
+    <string name="product_price">Цена</string>
+    <string name="product_size">Размер</string>
+    <string name="product_stock">Количество в наличии</string>
+    <string name="register">Регистрация</string>
+    <string name="register_button">Зарегистрироваться</string>
+    <string name="reviews">Отзывы</string>
+    <string name="save">Сохранить</string>
+    <string name="search_hint">Поиск одежды...</string>
+    <string name="total">Итого</string>
+    <style name="Theme.ClothingMarket" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:colorBackground">@color/dark_background</item>
+        <item name="android:textColorPrimary">@color/light_text</item>
+        <item name="android:textColorSecondary">@color/light_text_secondary</item>
+    </style>
+    <style name="Theme.ImageViewer" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>

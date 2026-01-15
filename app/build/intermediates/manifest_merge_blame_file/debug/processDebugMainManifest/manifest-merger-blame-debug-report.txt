@@ -1,0 +1,206 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mobl.clothingmarket"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->F:\MOBL\app\src\main\AndroidManifest.xml:5:5-80
+11-->F:\MOBL\app\src\main\AndroidManifest.xml:5:22-77
+12    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+12-->F:\MOBL\app\src\main\AndroidManifest.xml:6:5-76
+12-->F:\MOBL\app\src\main\AndroidManifest.xml:6:22-73
+13    <uses-permission
+13-->F:\MOBL\app\src\main\AndroidManifest.xml:7:5-8:38
+14        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+14-->F:\MOBL\app\src\main\AndroidManifest.xml:7:22-78
+15        android:maxSdkVersion="32" />
+15-->F:\MOBL\app\src\main\AndroidManifest.xml:8:9-35
+16
+17    <permission
+17-->[androidx.core:core:1.9.0] C:\Users\nic84\.gradle\caches\8.13\transforms\00eeb73d329f60914ee7cf1a9183d8d3\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+18        android:name="com.mobl.clothingmarket.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+18-->[androidx.core:core:1.9.0] C:\Users\nic84\.gradle\caches\8.13\transforms\00eeb73d329f60914ee7cf1a9183d8d3\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+19        android:protectionLevel="signature" />
+19-->[androidx.core:core:1.9.0] C:\Users\nic84\.gradle\caches\8.13\transforms\00eeb73d329f60914ee7cf1a9183d8d3\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+20
+21    <uses-permission android:name="com.mobl.clothingmarket.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+21-->[androidx.core:core:1.9.0] C:\Users\nic84\.gradle\caches\8.13\transforms\00eeb73d329f60914ee7cf1a9183d8d3\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+21-->[androidx.core:core:1.9.0] C:\Users\nic84\.gradle\caches\8.13\transforms\00eeb73d329f60914ee7cf1a9183d8d3\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+22
+23    <application
+23-->F:\MOBL\app\src\main\AndroidManifest.xml:10:5-55:19
+24        android:allowBackup="true"
+24-->F:\MOBL\app\src\main\AndroidManifest.xml:11:9-35
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.9.0] C:\Users\nic84\.gradle\caches\8.13\transforms\00eeb73d329f60914ee7cf1a9183d8d3\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+26        android:debuggable="true"
+27        android:extractNativeLibs="false"
+28        android:icon="@mipmap/ic_launcher"
+28-->F:\MOBL\app\src\main\AndroidManifest.xml:12:9-43
+29        android:label="@string/app_name"
+29-->F:\MOBL\app\src\main\AndroidManifest.xml:13:9-41
+30        android:roundIcon="@mipmap/ic_launcher_round"
+30-->F:\MOBL\app\src\main\AndroidManifest.xml:14:9-54
+31        android:supportsRtl="true"
+31-->F:\MOBL\app\src\main\AndroidManifest.xml:15:9-35
+32        android:testOnly="true"
+33        android:theme="@style/Theme.ClothingMarket" >
+33-->F:\MOBL\app\src\main\AndroidManifest.xml:16:9-52
+34        <activity
+34-->F:\MOBL\app\src\main\AndroidManifest.xml:18:9-26:20
+35            android:name="com.mobl.clothingmarket.MainActivity"
+35-->F:\MOBL\app\src\main\AndroidManifest.xml:19:13-41
+36            android:exported="true"
+36-->F:\MOBL\app\src\main\AndroidManifest.xml:20:13-36
+37            android:theme="@style/Theme.ClothingMarket" >
+37-->F:\MOBL\app\src\main\AndroidManifest.xml:21:13-56
+38            <intent-filter>
+38-->F:\MOBL\app\src\main\AndroidManifest.xml:22:13-25:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->F:\MOBL\app\src\main\AndroidManifest.xml:23:17-69
+39-->F:\MOBL\app\src\main\AndroidManifest.xml:23:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->F:\MOBL\app\src\main\AndroidManifest.xml:24:17-77
+41-->F:\MOBL\app\src\main\AndroidManifest.xml:24:27-74
+42            </intent-filter>
+43        </activity>
+44        <activity
+44-->F:\MOBL\app\src\main\AndroidManifest.xml:27:9-30:59
+45            android:name="com.mobl.clothingmarket.LoginActivity"
+45-->F:\MOBL\app\src\main\AndroidManifest.xml:28:13-42
+46            android:exported="false"
+46-->F:\MOBL\app\src\main\AndroidManifest.xml:29:13-37
+47            android:theme="@style/Theme.ClothingMarket" />
+47-->F:\MOBL\app\src\main\AndroidManifest.xml:30:13-56
+48        <activity
+48-->F:\MOBL\app\src\main\AndroidManifest.xml:31:9-34:59
+49            android:name="com.mobl.clothingmarket.RegisterActivity"
+49-->F:\MOBL\app\src\main\AndroidManifest.xml:32:13-45
+50            android:exported="false"
+50-->F:\MOBL\app\src\main\AndroidManifest.xml:33:13-37
+51            android:theme="@style/Theme.ClothingMarket" />
+51-->F:\MOBL\app\src\main\AndroidManifest.xml:34:13-56
+52        <activity
+52-->F:\MOBL\app\src\main\AndroidManifest.xml:35:9-38:59
+53            android:name="com.mobl.clothingmarket.CartActivity"
+53-->F:\MOBL\app\src\main\AndroidManifest.xml:36:13-41
+54            android:exported="false"
+54-->F:\MOBL\app\src\main\AndroidManifest.xml:37:13-37
+55            android:theme="@style/Theme.ClothingMarket" />
+55-->F:\MOBL\app\src\main\AndroidManifest.xml:38:13-56
+56        <activity
+56-->F:\MOBL\app\src\main\AndroidManifest.xml:39:9-42:59
+57            android:name="com.mobl.clothingmarket.AdminActivity"
+57-->F:\MOBL\app\src\main\AndroidManifest.xml:40:13-42
+58            android:exported="false"
+58-->F:\MOBL\app\src\main\AndroidManifest.xml:41:13-37
+59            android:theme="@style/Theme.ClothingMarket" />
+59-->F:\MOBL\app\src\main\AndroidManifest.xml:42:13-56
+60        <activity
+60-->F:\MOBL\app\src\main\AndroidManifest.xml:43:9-46:59
+61            android:name="com.mobl.clothingmarket.ProductDetailActivity"
+61-->F:\MOBL\app\src\main\AndroidManifest.xml:44:13-50
+62            android:exported="false"
+62-->F:\MOBL\app\src\main\AndroidManifest.xml:45:13-37
+63            android:theme="@style/Theme.ClothingMarket" />
+63-->F:\MOBL\app\src\main\AndroidManifest.xml:46:13-56
+64        <activity
+64-->F:\MOBL\app\src\main\AndroidManifest.xml:47:9-50:59
+65            android:name="com.mobl.clothingmarket.EditProductActivity"
+65-->F:\MOBL\app\src\main\AndroidManifest.xml:48:13-48
+66            android:exported="false"
+66-->F:\MOBL\app\src\main\AndroidManifest.xml:49:13-37
+67            android:theme="@style/Theme.ClothingMarket" />
+67-->F:\MOBL\app\src\main\AndroidManifest.xml:50:13-56
+68        <activity
+68-->F:\MOBL\app\src\main\AndroidManifest.xml:51:9-54:56
+69            android:name="com.mobl.clothingmarket.ImageViewerActivity"
+69-->F:\MOBL\app\src\main\AndroidManifest.xml:52:13-48
+70            android:exported="false"
+70-->F:\MOBL\app\src\main\AndroidManifest.xml:53:13-37
+71            android:theme="@style/Theme.ImageViewer" />
+71-->F:\MOBL\app\src\main\AndroidManifest.xml:54:13-53
+72
+73        <service
+73-->[androidx.room:room-runtime:2.6.1] C:\Users\nic84\.gradle\caches\8.13\transforms\fb16c9c2735d47120834c0f771e9c004\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+74            android:name="androidx.room.MultiInstanceInvalidationService"
+74-->[androidx.room:room-runtime:2.6.1] C:\Users\nic84\.gradle\caches\8.13\transforms\fb16c9c2735d47120834c0f771e9c004\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+75            android:directBootAware="true"
+75-->[androidx.room:room-runtime:2.6.1] C:\Users\nic84\.gradle\caches\8.13\transforms\fb16c9c2735d47120834c0f771e9c004\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+76            android:exported="false" />
+76-->[androidx.room:room-runtime:2.6.1] C:\Users\nic84\.gradle\caches\8.13\transforms\fb16c9c2735d47120834c0f771e9c004\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+77
+78        <provider
+78-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nic84\.gradle\caches\8.13\transforms\4d2453fdc4c3c668e840984901fbd925\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+79            android:name="androidx.startup.InitializationProvider"
+79-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nic84\.gradle\caches\8.13\transforms\4d2453fdc4c3c668e840984901fbd925\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+80            android:authorities="com.mobl.clothingmarket.androidx-startup"
+80-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nic84\.gradle\caches\8.13\transforms\4d2453fdc4c3c668e840984901fbd925\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+81            android:exported="false" >
+81-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nic84\.gradle\caches\8.13\transforms\4d2453fdc4c3c668e840984901fbd925\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+82            <meta-data
+82-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nic84\.gradle\caches\8.13\transforms\4d2453fdc4c3c668e840984901fbd925\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+83                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+83-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nic84\.gradle\caches\8.13\transforms\4d2453fdc4c3c668e840984901fbd925\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+84                android:value="androidx.startup" />
+84-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nic84\.gradle\caches\8.13\transforms\4d2453fdc4c3c668e840984901fbd925\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+85            <meta-data
+85-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\nic84\.gradle\caches\8.13\transforms\9e71723e3e0bf95ef9c5f8429bc855a8\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+86                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+86-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\nic84\.gradle\caches\8.13\transforms\9e71723e3e0bf95ef9c5f8429bc855a8\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+87                android:value="androidx.startup" />
+87-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\nic84\.gradle\caches\8.13\transforms\9e71723e3e0bf95ef9c5f8429bc855a8\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+88            <meta-data
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nic84\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+89                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nic84\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+90                android:value="androidx.startup" />
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nic84\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+91        </provider>
+92
+93        <receiver
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nic84\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+94            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nic84\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+95            android:directBootAware="false"
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nic84\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+96            android:enabled="true"
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nic84\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+97            android:exported="true"
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nic84\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+98            android:permission="android.permission.DUMP" >
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nic84\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+99            <intent-filter>
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nic84\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+100                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nic84\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nic84\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+101            </intent-filter>
+102            <intent-filter>
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nic84\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+103                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nic84\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nic84\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+104            </intent-filter>
+105            <intent-filter>
+105-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nic84\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+106                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nic84\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nic84\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+107            </intent-filter>
+108            <intent-filter>
+108-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nic84\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+109                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nic84\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nic84\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+110            </intent-filter>
+111        </receiver>
+112    </application>
+113
+114</manifest>
